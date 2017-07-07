@@ -10,8 +10,6 @@
       this._utterance = new SpeechSynthesisUtterance()
     }
   }, {
-    $type: "a", target: "_blank", href: "/_src", $text: "Welcome to the HTML-Less Chatroom (view source)", style: "position: fixed; top:0; left:0; border-radius: 4px; font-size: 12px; padding: 10px; margin: 10px; text-decoration: none; background: rgba(0,0,0,0.8); color: white;"
-  }, {
     class: "container", _messages: [],
     _add: function(m){
       this._messages.push(m)
