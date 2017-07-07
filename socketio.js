@@ -5,7 +5,7 @@
   $components: [{
     $type: "script", src: "https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.2/socket.io.js",
     onload: function(){
-      this._socket = io()
+      this._socket = io("https://hohoho-qbaoxmwwzj.now.sh")
       this._socket.on('message', function (data) { this._add(data.message) }.bind(this))
       this._utterance = new SpeechSynthesisUtterance()
     }
